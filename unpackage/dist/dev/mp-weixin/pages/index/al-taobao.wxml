@@ -1,0 +1,1 @@
+<view class="container data-v-32a24a74"><button style="margin-top:30rpx;" type="default" data-event-opts="{{[['tap',[['fnTao']]]]}}" bindtap="__e" class="data-v-32a24a74">进入淘宝</button><button style="margin-top:30rpx;" type="default" data-event-opts="{{[['tap',[['fnWeiXin']]]]}}" bindtap="__e" class="data-v-32a24a74">进入微信</button></view>

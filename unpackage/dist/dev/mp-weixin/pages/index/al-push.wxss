@@ -1,0 +1,9 @@
+page.data-v-42de9440 {
+  width: 100%;
+  height: 100%;
+}
+.button.data-v-42de9440 {
+  width: 590rpx;
+  margin-top: 40rpx;
+}
+

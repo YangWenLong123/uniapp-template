@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "容器模版",
+  "navigationBarBackgroundColor": "#007AFF",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "titleNView": true,
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "pullToRefresh": {
+    "support": false
+  },
+  "usingComponents": {}
+}

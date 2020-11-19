@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "ios文字转语音",
+  "navigationBarBackgroundColor": "#007AFF",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

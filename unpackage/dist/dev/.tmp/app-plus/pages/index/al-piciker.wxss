@@ -1,0 +1,21 @@
+.content.data-v-57de2c03 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 30rpx 20rpx;
+}
+.content-btn.data-v-57de2c03 {
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+

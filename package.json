@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mp-painter": "^0.2.7",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "number-precision": "^1.5.0",
+    "weex": "^0.0.0"
+  }
+}

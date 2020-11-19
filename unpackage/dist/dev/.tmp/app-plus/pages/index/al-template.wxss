@@ -1,0 +1,97 @@
+page.data-v-bb1e4780,
+.container.data-v-bb1e4780 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.content.data-v-bb1e4780 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.content-box.data-v-bb1e4780 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+.content-list.data-v-bb1e4780 {
+  width: 340rpx;
+  height: 420rpx;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.content-list-pic.data-v-bb1e4780 {
+  width: 300rpx;
+  height: 300rpx;
+}
+.content-list-name.data-v-bb1e4780 {
+  width: 100%;
+  text-align: center;
+}
+.contanect.data-v-bb1e4780 {
+  width: 100%;
+  height: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.contanect-box.data-v-bb1e4780 {
+  width: 100%;
+  height: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.contanect-box .contanect-list.data-v-bb1e4780 {
+  width: 100%;
+  height: 450rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background: #fff;
+  padding: 30rpx 0;
+}
+.contanect-box .contanect-list-pic.data-v-bb1e4780 {
+  width: 400rpx;
+  height: 500rpx;
+}
+

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "点赞冒泡",
+  "navigationBarBackgroundColor": "#007AFF",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "like-button": "/components/like-button/like-button"
+  }
+}

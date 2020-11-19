@@ -1,0 +1,42 @@
+/**
+ * 页面全局样式
+ */
+page {
+	height: 100%;
+	font-size: 28upx;
+	line-height: 1.8;
+	background-color: #f8f8f8;
+}
+
+/* #ifndef APP-PLUS-NVUE */
+::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    -webkit-appearance: none !important;
+    background-color: transparent !important;
+}
+/* #endif */
+
+/**
+ * 图片样式
+ */
+img {
+	width: 100%;
+}
+
+/**
+ * 主色调
+ */
+.main-bg-color {
+	background: #FD6801;
+}
+.main-bg-hover-color {
+	background: rgba(253,104,1,.85);
+}
+.main-text-color {
+	color: #FD6801;
+}
+.main-border-color {
+	border-color: #F1F1F1;
+}

@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['fnHandClick',['$event']]]]]}}" class="popup _div data-v-3b36f556" catchtap="__e"><view class="popup_pic data-v-3b36f556"><text class="popup_text data-v-3b36f556">自定义内容</text></view></view>

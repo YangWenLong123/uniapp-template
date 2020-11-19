@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "nvue页面",
+  "navigationBarBackgroundColor": "#007AFF",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

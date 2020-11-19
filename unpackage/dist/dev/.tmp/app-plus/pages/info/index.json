@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationBarBackgroundColor": "#007AFF",
+  "navigationBarTextStyle": "white",
+  "titleNView": true,
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "pullToRefresh": {
+    "support": false
+  },
+  "usingComponents": {}
+}

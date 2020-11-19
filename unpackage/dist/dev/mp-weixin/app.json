@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/al-global-popup",
+    "pages/index/al-piciker",
+    "pages/index/al-popup",
+    "pages/index/al-nvue-page",
+    "pages/index/al-header",
+    "pages/index/al-bitpic",
+    "pages/index/al-template",
+    "pages/index/al-template-vue",
+    "pages/index/al-video",
+    "pages/index/al-jurisdiction",
+    "pages/index/al-bindingX",
+    "pages/index/al-move",
+    "pages/index/al-manage",
+    "pages/index/al-animate",
+    "pages/index/al-share",
+    "pages/index/al-dbclick",
+    "pages/index/al-sppech",
+    "pages/index/al-copy",
+    "pages/index/al-map",
+    "pages/index/lwj-record",
+    "pages/index/al-plug",
+    "pages/index/al-barcode",
+    "pages/index/al-push",
+    "pages/index/al-canvas",
+    "pages/index/al-taobao",
+    "pages/index/al-login",
+    "pages/index/al-weather",
+    "pages/index/al-city",
+    "pages/index/al-unicloud",
+    "pages/index/electric-box-police",
+    "pages/index/al-like-button",
+    "pages/info/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "al-api",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#B1B1B1",
+    "selectedColor": "#FD6801",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/images/tabbar/index.png",
+        "selectedIconPath": "/static/images/tabbar/indexSelect.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/info/index",
+        "iconPath": "/static/images/tabbar/my.png",
+        "selectedIconPath": "/static/images/tabbar/mySelect.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

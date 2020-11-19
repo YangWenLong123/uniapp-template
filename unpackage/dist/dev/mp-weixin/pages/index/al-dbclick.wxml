@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['fndbClick']]]]}}" class="container data-v-792e6d74" bindtap="__e">双击我，come on !</view>

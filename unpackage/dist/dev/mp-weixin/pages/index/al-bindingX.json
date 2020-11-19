@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "bindingX",
+  "navigationBarBackgroundColor": "#007AFF",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

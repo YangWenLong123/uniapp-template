@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#007AFF",
+  "navigationBarTextStyle": "white",
+  "background": "transparent",
+  "animationType": "fade-in",
+  "backgroundColor": "rgba(255,255,255,0)",
+  "usingComponents": {}
+}

@@ -1,0 +1,15 @@
+page.data-v-ba0d99ac {
+  width: 100%;
+  height: 100%;
+}
+.container.data-v-ba0d99ac {
+  width: 100%;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container .button.data-v-ba0d99ac {
+  width: 690rpx;
+  margin-top: 40rpx;
+}
+

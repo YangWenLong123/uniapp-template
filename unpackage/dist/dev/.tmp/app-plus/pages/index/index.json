@@ -1,0 +1,30 @@
+{
+  "navigationBarTitleText": "组件",
+  "navigationBarBackgroundColor": "#007AFF",
+  "navigationBarTextStyle": "white",
+  "titleNView": true,
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "pullToRefresh": {
+    "support": false
+  },
+  "subNVues": [
+    {
+      "id": "homeNvue",
+      "path": "pages/index/al-home-subNvue",
+      "type": "popup",
+      "style": {
+        "position": "absolute",
+        "left": "0px",
+        "bottom": "0px",
+        "width": "750px",
+        "height": "225px",
+        "margin": "auto",
+        "zindex": "999"
+      }
+    }
+  ],
+  "usingComponents": {
+    "mix-pulldown-refresh": "/components/mix-pulldown-refresh/mix-pulldown-refresh"
+  }
+}

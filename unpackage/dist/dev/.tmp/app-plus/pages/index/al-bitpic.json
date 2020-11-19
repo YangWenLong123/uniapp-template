@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "系统api",
+  "navigationBarBackgroundColor": "#007AFF",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "titleNView": true,
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "pullToRefresh": {
+    "support": false
+  },
+  "usingComponents": {}
+}

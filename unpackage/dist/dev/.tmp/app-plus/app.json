@@ -1,0 +1,138 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/al-piciker",
+    "pages/index/al-popup",
+    "pages/index/al-header",
+    "pages/index/al-bitpic",
+    "pages/index/al-template",
+    "pages/index/al-jurisdiction",
+    "pages/index/al-move",
+    "pages/index/al-manage",
+    "pages/index/al-share",
+    "pages/index/al-dbclick",
+    "pages/index/al-sppech",
+    "pages/index/al-copy",
+    "pages/index/al-map",
+    "pages/info/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "al-api",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF",
+    "titleNView": false,
+    "scrollIndicator": "none",
+    "bounce": "none",
+    "pullToRefresh": {
+      "support": false
+    }
+  },
+  "tabBar": {
+    "color": "#B1B1B1",
+    "selectedColor": "#FD6801",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/images/tabbar/index.png",
+        "selectedIconPath": "/static/images/tabbar/indexSelect.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/info/index",
+        "iconPath": "/static/images/tabbar/my.png",
+        "selectedIconPath": "/static/images/tabbar/mySelect.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvue": {
+    "pages": {
+      "pages/index/al-global-popup.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationBarBackgroundColor": "#007AFF",
+          "navigationBarTextStyle": "white",
+          "background": "transparent",
+          "animationType": "fade-in"
+        },
+        "nvue": true
+      },
+      "pages/index/al-nvue-page.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationBarTitleText": "nvue页面",
+          "navigationBarBackgroundColor": "#007AFF",
+          "navigationBarTextStyle": "white",
+          "enablePullDownRefresh": true,
+          "titleNView": false,
+          "scrollIndicator": "none",
+          "bounce": "none",
+          "pullToRefresh": {
+            "support": false
+          }
+        },
+        "nvue": true
+      },
+      "pages/index/al-video.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationBarTitleText": "视频",
+          "navigationBarBackgroundColor": "#007AFF",
+          "navigationBarTextStyle": "white",
+          "enablePullDownRefresh": true,
+          "titleNView": false,
+          "scrollIndicator": "none",
+          "bounce": "none",
+          "pullToRefresh": {
+            "support": false
+          }
+        },
+        "nvue": true
+      },
+      "pages/index/al-bindingX.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationBarTitleText": "bindingX",
+          "navigationBarBackgroundColor": "#007AFF",
+          "navigationBarTextStyle": "white",
+          "enablePullDownRefresh": true,
+          "titleNView": true,
+          "scrollIndicator": "none",
+          "bounce": "none",
+          "pullToRefresh": {
+            "support": false
+          }
+        },
+        "nvue": true
+      },
+      "pages/index/al-animate.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationBarTitleText": "动画",
+          "navigationBarBackgroundColor": "#007AFF",
+          "navigationBarTextStyle": "white",
+          "enablePullDownRefresh": true,
+          "titleNView": true,
+          "scrollIndicator": "none",
+          "bounce": "none",
+          "pullToRefresh": {
+            "support": false
+          }
+        },
+        "nvue": true
+      }
+    }
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "uniapp-al-api",
+  "compilerVersion": "2.6.5",
+  "usingComponents": {}
+}

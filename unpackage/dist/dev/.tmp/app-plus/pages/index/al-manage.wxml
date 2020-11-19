@@ -1,0 +1,1 @@
+<view><button data-event-opts="{{[['tap',[['startRecord',['$event']]]]]}}" bindtap="__e">开始录音</button><button data-event-opts="{{[['tap',[['endRecord',['$event']]]]]}}" bindtap="__e">停止录音</button><button data-event-opts="{{[['tap',[['playVoice',['$event']]]]]}}" bindtap="__e">播放录音</button></view>

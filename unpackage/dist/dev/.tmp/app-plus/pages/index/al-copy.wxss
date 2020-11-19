@@ -1,0 +1,30 @@
+page.data-v-568d10bb {
+  width: 100%;
+  height: 100%;
+}
+.container.data-v-568d10bb {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 1px red solid;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .container-text.data-v-568d10bb {
+  width: 600rpx;
+  height: 80rpx;
+  border: none;
+  background: transparent;
+  border: 1px red solid;
+  background-color: #F4F4F4;
+}
+

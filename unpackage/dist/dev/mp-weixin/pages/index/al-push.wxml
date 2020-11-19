@@ -1,0 +1,1 @@
+<view class="container data-v-42de9440" style="padding-bottom:50rpx;"><button class="button data-v-42de9440" type="default" data-event-opts="{{[['tap',[['fnGetProvide']]]]}}" bindtap="__e">获取推送通道</button><button class="button data-v-42de9440" type="default" data-event-opts="{{[['tap',[['fnCreate']]]]}}" bindtap="__e">创建推送通道</button></view>

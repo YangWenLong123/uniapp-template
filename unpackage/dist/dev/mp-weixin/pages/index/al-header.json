@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "渐变导航",
+  "usingComponents": {
+    "mix-pulldown-refresh": "/components/mix-pulldown-refresh/mix-pulldown-refresh"
+  }
+}

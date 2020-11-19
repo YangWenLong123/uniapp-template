@@ -1,0 +1,1 @@
+<view class="container data-v-ba0d99ac"><button class="button data-v-ba0d99ac" type="primary" data-event-opts="{{[['tap',[['fnCreatBarcode']]]]}}" bindtap="__e">plus 扫码</button><button class="button data-v-ba0d99ac" type="primary" data-event-opts="{{[['tap',[['fnCreatBarcodeApi']]]]}}" bindtap="__e">api 扫码</button></view>

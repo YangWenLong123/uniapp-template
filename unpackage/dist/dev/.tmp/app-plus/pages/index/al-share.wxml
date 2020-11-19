@@ -1,0 +1,1 @@
+<view class="container data-v-74aaa0ee"><button type="default" data-event-opts="{{[['tap',[['fnPlusShare']]]]}}" bindtap="__e" class="data-v-74aaa0ee">plus分享</button><button type="default" data-event-opts="{{[['tap',[['fnWeixin']]]]}}" bindtap="__e" class="data-v-74aaa0ee">微信好友分享</button></view>

@@ -1,0 +1,31 @@
+{
+  "navigationBarTitleText": "subNvue弹窗",
+  "navigationBarBackgroundColor": "#007AFF",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "titleNView": true,
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "pullToRefresh": {
+    "support": false
+  },
+  "subNVues": [
+    {
+      "id": "al",
+      "path": "pages/index/al-subNvue-popup",
+      "type": "popup",
+      "style": {
+        "position": "absolute",
+        "mask": "rgba(0，0，0，0)",
+        "left": "0px",
+        "bottom": "0px",
+        "width": "100%",
+        "height": "100%",
+        "zindex": "999"
+      }
+    }
+  ],
+  "usingComponents": {
+    "uni-tag": "/components/uni-tag/uni-tag"
+  }
+}

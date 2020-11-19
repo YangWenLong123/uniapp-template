@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['touchmove',[['handletouchmove',['$event']]]],['touchstart',[['handletouchstart',['$event']]]],['touchend',[['handletouchend',['$event']]]]]}}" class="relative data-v-6e7c0f17" bindtouchmove="__e" bindtouchstart="__e" bindtouchend="__e">手指滑动屏幕</view>

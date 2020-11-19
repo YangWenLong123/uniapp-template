@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "多列选择器",
+  "navigationBarBackgroundColor": "#007AFF",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "titleNView": true,
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "pullToRefresh": {
+    "support": false
+  },
+  "usingComponents": {
+    "mpvue-picker": "/components/mpvue-picker/mpvuePicker"
+  }
+}

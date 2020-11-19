@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "录音操作",
+  "navigationBarBackgroundColor": "#007AFF",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "prompt": "/components/zz-prompt/index"
+  }
+}

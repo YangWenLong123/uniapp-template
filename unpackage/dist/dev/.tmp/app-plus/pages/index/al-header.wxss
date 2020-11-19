@@ -1,0 +1,14 @@
+page.data-v-5a87375a,
+.container.data-v-5a87375a {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.container_pic.data-v-5a87375a {
+  width: 750rpx;
+  height: 500rpx;
+  border: 1px;
+}
+
