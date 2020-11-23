@@ -16,6 +16,7 @@
             "autoclose" : true,
             "delay" : 0
         },
+		/* none/auto */
         "safearea" : {
             "background" : "#FFFFFF",
             "bottom" : {

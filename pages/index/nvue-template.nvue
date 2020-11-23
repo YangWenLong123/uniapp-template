@@ -1,0 +1,163 @@
+<template>
+	<div class="container">
+		<div class="content" :style="{height:statusBarHeight+44+'px'}">
+			<div class="status-bar" :style="{height:statusBarHeight+'px'}"></div>
+			<div class="nav">
+				<text @tap="fnNavBack" class="iconfont left-icon" :style="{ fontFamily: 'iconfont' }">&#xe64b;</text>
+				<text class="nav-title">页面标题</text>
+				<text @tap="fnNavSetting" class="iconfont right-icon" :style="{ fontFamily: 'iconfont' }">&#xe641;</text>
+			</div>
+		</div>
+		<list class="main">
+			<refresh class="refresh" @refresh="onrefresh()" :display="refreshing ? 'show' : 'hide'">
+				<view class="refresh-view"><image class="loading-icon" :src="loadingIcon" mode="aspectFit"></image></view>
+			</refresh>
+		    <cell>
+				<image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/muwu.jpg" mode="aspectFill" class="container_pic"></image>
+				<image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/cbd.jpg" mode="aspectFill" class="container_pic"></image>
+				<image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/muwu.jpg" mode="aspectFill" class="container_pic"></image>
+				<image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/cbd.jpg" mode="aspectFill" class="container_pic"></image>
+				<image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/muwu.jpg" mode="aspectFill" class="container_pic"></image>
+				<image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/cbd.jpg" mode="aspectFill" class="container_pic"></image>
+				<image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/muwu.jpg" mode="aspectFill" class="container_pic"></image>
+				<image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/cbd.jpg" mode="aspectFill" class="container_pic"></image>
+				<image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/muwu.jpg" mode="aspectFill" class="container_pic"></image>
+				<image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/cbd.jpg" mode="aspectFill" class="container_pic"></image>
+				<image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/muwu.jpg" mode="aspectFill" class="container_pic"></image>
+				<image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/cbd.jpg" mode="aspectFill" class="container_pic"></image>
+		    </cell>
+	    </list>
+		<list class="foot">
+			<cell>
+				<text class="foot-text">我是模拟安全区</text>
+			</cell>
+		</list>
+	</div>
+</template>
+<script> 
+export default {
+	data() {
+		return {
+			statusBarHeight: getApp().globalData.systemInfo.statusBarHeight,
+			lists: ['A', 'B', 'C', 'D', 'E'],
+			refreshing: false,
+			loadingIcon: getApp().globalData.loadingIcon
+		};
+	},
+	beforeCreate() {
+		const domModule = weex.requireModule('dom');
+		domModule.addRule('fontFace', {
+			fontFamily: 'iconfont',
+			src: "url('http://at.alicdn.com/t/font_1518794_y97qvr0s6p.ttf')"
+		});
+	},
+	mounted() {},
+	methods: {
+		fnNavBack () {
+			uni.navigateBack();
+		},
+		fnNavSetting () {
+			uni.showToast({
+				title: '设置',
+				icon: 'none'
+			})
+		},
+		onrefresh() {
+			this.refreshing = true;
+			uni.showToast({
+				title: '1',
+				icon: 'none'
+			})
+			setTimeout(()=>{
+				this.refreshing = false;
+			},800);
+		}
+	}
+};
+</script>
+<style>
+.container {
+	width: 750rpx;
+	flex: 1;
+	flex-direction: column;
+}
+.content{
+	width: 750rpx;
+	background-color: #0079FF;
+	flex-direction: column;
+}
+.status-bar{
+	width: 750rpx;
+}
+.nav{
+	width: 750rpx;
+	flex: 1;
+	height: 88rpx;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	
+}
+.left-icon {
+	font-size: 19px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 15px;
+	font-weight: 500;
+}
+.right-icon {
+	font-size: 19px;
+	color: #FFFFFF;
+	position: absolute;
+	right: 15px;
+	font-weight: 500;
+}
+.nav-title {
+	color: #fff;
+	font-size: 17px;
+}
+.main {
+	width: 750rpx;
+	flex: 1;
+	border-width: 1px;
+	border-color: red;
+}
+.container_pic {
+	width: 750rpx;
+	height: 400rpx;
+}
+/*foot*/
+.foot {
+	width: 750rpx;
+	height: 60rpx;
+}
+.foot-text {
+	font-size: 12px;
+	width: 750rpx;
+	text-align: center;
+	height: 60rpx;
+	line-height: 60rpx;
+}
+/*refresh*/
+.refresh {
+	width: 750rpx;
+	height: 64px;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.refresh-view {
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	z-index: 20;
+}
+
+.loading-icon {
+	width: 36rpx;
+	height: 36rpx;
+}
+</style>
