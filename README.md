@@ -13,22 +13,22 @@ uniapp学习笔记[点击查看](https://www.yuque.com/along-n3gko/ezt5z9/dnt6i7
 # 目录
 ├── common	  
 │   └── router	  
-├── components	  
-├── libs	
-├── nativeplugins	
-├── pages	
-├── static	
-├── store	
-├── unpackage	
-├── untils	
-├── App.vue	
-├── main.js	
-├── mainfest.json	
-├── package-lock.json	
-├── package.json	
-├── README.json	
-├── uni.scss
-
+├── components	   
+├── libs	  
+├── nativeplugins	    
+├── pages	    
+├── static	    
+├── store	    
+├── unpackage	    
+├── untils	    
+├── App.vue	    
+├── main.js	    
+├── mainfest.json	    
+├── package-lock.json	    
+├── package.json	    
+├── README.json	    
+├── uni.scss    
+  
 # 使用组件
 * mix-load-more
 * mix-pulldown-refresh
