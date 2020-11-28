@@ -11,9 +11,9 @@ uniapp学习笔记[点击查看](https://www.yuque.com/along-n3gko/ezt5z9/dnt6i7
 *  基于Promise对象实现更简单的request请求(后面会基于axios重新封装)
 
 # 目录
-├── common	
-│   └── router	
-├── components	
+├── common	  
+│   └── router	  
+├── components	  
 ├── libs	
 ├── nativeplugins	
 ├── pages	
