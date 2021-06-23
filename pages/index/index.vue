@@ -30,7 +30,12 @@
 			return {
 				enableScroll: true,
 				list: [
-					{ url: '/pages/index/nvue-template', name: 'nvue页面模版', navigateTo: 'navigateTo' }
+					{ url: '/pages/index/nvue-template', name: 'nvue页面模版', navigateTo: 'navigateTo' },
+					{ url: '/pages/index/canvas', name: 'canvas绘图', navigateTo: 'navigateTo' },
+					{ url: '/pages/index/skeleton', name: '骨架屏', navigateTo: 'navigateTo' },
+					// { url: '/pages/index/test', name: '回弹', navigateTo: 'navigateTo' },
+					// { url: '/pages/index/nvue-popup', name: '页面全局弹窗', navigateTo: 'navigateTo' },
+					// { url: '/pages/index/nvue-coupon', name: '优惠券页面模版', navigateTo: 'navigateTo' },
 				]
 			}
 		},

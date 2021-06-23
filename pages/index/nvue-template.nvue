@@ -8,7 +8,7 @@
 				<text @tap="fnNavSetting" class="iconfont right-icon" :style="{ fontFamily: 'iconfont' }">&#xe641;</text>
 			</div>
 		</div>
-		<list class="main">
+		<waterfall class="main">
 			<refresh class="refresh" @refresh="onrefresh()" :display="refreshing ? 'show' : 'hide'">
 				<view class="refresh-view"><image class="loading-icon" :src="loadingIcon" mode="aspectFit"></image></view>
 			</refresh>
@@ -26,16 +26,20 @@
 				<image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/muwu.jpg" mode="aspectFill" class="container_pic"></image>
 				<image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/cbd.jpg" mode="aspectFill" class="container_pic"></image>
 		    </cell>
-	    </list>
+	    </waterfall>
 		<list class="foot">
 			<cell>
 				<text class="foot-text">我是模拟安全区</text>
 			</cell>
 		</list>
+		
 	</div>
 </template>
 <script> 
+	    let worker = null;
 export default {
+	components: {
+	},
 	data() {
 		return {
 			statusBarHeight: getApp().globalData.systemInfo.statusBarHeight,
@@ -44,6 +48,9 @@ export default {
 			loadingIcon: getApp().globalData.loadingIcon
 		};
 	},
+	onReady(){
+	  
+	},
 	beforeCreate() {
 		const domModule = weex.requireModule('dom');
 		domModule.addRule('fontFace', {
@@ -51,7 +58,9 @@ export default {
 			src: "url('http://at.alicdn.com/t/font_1518794_y97qvr0s6p.ttf')"
 		});
 	},
-	mounted() {},
+	mounted() {
+		
+	},
 	methods: {
 		fnNavBack () {
 			uni.navigateBack();
@@ -76,6 +85,9 @@ export default {
 };
 </script>
 <style>
+	.canvas {
+		
+	}
 .container {
 	width: 750rpx;
 	flex: 1;

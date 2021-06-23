@@ -9,7 +9,6 @@
 				"app-plus": {
 					"titleNView": true,
 					"scrollIndicator": "none",
-					"bounce": "none",
 					"pullToRefresh": {
 						"support": false
 					}
@@ -26,7 +25,98 @@
 				"app-plus": {
 					"titleNView": false,
 					"scrollIndicator": "none",
-					"bounce": "none",
+					"popGesture": "none",
+					"pullToRefresh": {
+						"support": false
+					}
+				},
+				"h5": {
+					"titleNView": false,
+					"type": "default",
+					"pullToRefresh": {
+						"offset": "45px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/nvue-popup",
+			"style" : {
+			    "navigationBarTitleText" : "全局弹窗",
+			    "navigationBarTextStyle": "black",
+			    "backgroundTextStyle": "dark",
+			    "app-plus" : {
+			        "titleNView" : false,
+			        "scrollIndicator" : "none",
+			        "animationType": "none",
+			        "background": "transparent",
+			        "backgroundColor": "rgba(255,255,255,0)"
+			    },
+			    "h5" : {
+			        "titleNView" : false,
+			        "type" : "default"
+			    }
+			}
+		},
+		{
+			"path": "pages/index/test",
+			"style": {
+				"navigationBarTitleText": "回弹测试页面",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator": "none",
+					"popGesture": "none",
+					"pullToRefresh": {
+						"support": false
+					}
+				},
+				"h5": {
+					"titleNView": false,
+					"type": "default",
+					"pullToRefresh": {
+						"offset": "45px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/canvas",
+			"style": {
+				"navigationBarTitleText": "绘图",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": true,
+					"scrollIndicator": "none",
+					"popGesture": "none",
+					"pullToRefresh": {
+						"support": false
+					}
+				},
+				"h5": {
+					"titleNView": false,
+					"type": "default",
+					"pullToRefresh": {
+						"offset": "45px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/skeleton",
+			"style": {
+				"navigationBarTitleText": "骨架",
+				"navigationBarBackgroundColor": "#007AFF",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false,
+					"scrollIndicator": "none",
+					"popGesture": "none",
 					"pullToRefresh": {
 						"support": false
 					}
